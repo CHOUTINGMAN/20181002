@@ -1,0 +1,17 @@
+header{
+    width: 800px;
+    height: 80px;
+    background-color: #330000;
+}
+aside{
+    width: 170px;
+    height: 400px;
+    background: url(../image/bg_lt.png);
+    float: left;
+    
+}
+artcle{
+    width: 625px;
+    height: 400px;
+    float: right;
+}
