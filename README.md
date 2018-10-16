@@ -1,6 +1,6 @@
 # 1071-C-programming
 ## week 1
--[第一個C城市
+-[第一個C程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE1ODcsMTQzNjU0OTc3XX0=
+eyJoaXN0b3J5IjpbLTE2MzM4NzI2MTEsMTQzNjU0OTc3XX0=
 -->
