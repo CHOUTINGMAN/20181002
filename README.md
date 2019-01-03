@@ -30,6 +30,8 @@
 * [bootstrap card](https://choutingman.github.io/20181002/w12/index.html)
 ## week14
 * [淡江大戲](https://choutingman.github.io/20181002/淡江大戲.html)
+## 期末
+*[期末 project 總結報告](https://choutingman.github.io/20181002/期末/index.html)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4NTk5MTEyMTEsNDEwMTM5NjYxLC03Nz
