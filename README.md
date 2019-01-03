@@ -25,7 +25,7 @@
 * [模擬考](https://choutingman.github.io/20181002/w09-模擬考/resume.html)
 * [模擬考](https://choutingman.github.io/20181002/w09-模擬考/travel.html)
 ## bootstrap-sandbox-starter
-* [ALL](https://choutingman.github.io/20181002/bootstrap-sandbox-starter/2_2_basic_typography.html)
+* [ALL](https://choutingman.github.io/20181002/bootstrap_sandbox_starter/2_2_basic_typography.html)
 ## week13
 * [bootstrap card](https://choutingman.github.io/20181002/w12/index.html)
 ## week14
