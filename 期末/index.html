@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <title>Pattern</title>
+    <style>
+        #header {
+            background: url("./imgs/pattern3.jpeg")
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blogen</a>
+            <button class="navbar-toggler" data-toggle="collapse"data-target="#navbarNav">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#" data-toggle="modal" data-target="#addpostModal"> <i class="fas fa-plus"></i> Add Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#" data-toggle="modal" data-target="#addcatModal"><i class="fas fa-plus"></i> Add Catagories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#" data-toggle="modal" data-target="#adduserModal"> <i class="fas fa-plus"></i> Add Users</a>
+                </li>
+            </ul>
+                  <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><i class="fas fa-user">Welcome</i></a>
+                      <div class="dropdown-menu">
+                          
+                          <a href="#" class="dropdown-item"><i class="fas fa-user-circle">Profile</i></a>
+                          <a href="#" class="dropdown-item"><i class="fas fa-cog">Settings</i></a>
+                      </div>   
+                      </li>
+                      
+                      
+                     <li class="nav-item">
+                    <a class="nav-link mx-2" href="#"><i class="fas fa-user-times">Logout</i></a>
+                </li>
+                
+                  </ul>
+                  
+             </div>
+        </div>
+    </nav>
+    <section id="header" class="jumbotron text-center">
+        <h1 class="display-4">靜態網頁設計</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    </section>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/自我介紹.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 1</h4>
+                        <p class="card-text">
+                            這是我第一次接觸網頁設計，<br>很順利的完成了老師交代的第一份功課<br>
+                        </p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 30</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/pokemon.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 2</h4>
+                        <p class="card-text">老師用很簡單的方式教我們怎麼做出簡單的表格</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 36</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/tku.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 3</h4>
+                        <p class="card-text">這個禮拜還學會了如何將影片嵌入使游標點擊圖片時可以播放</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 42</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/TTTBLOG.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 4</h4>
+                        <p class="card-text">當游標放在九宮格的任何一個框時會有挑動的感覺我覺得很酷</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 50</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/image gallery.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 5</h4>
+                        <p class="card-text">照片很整齊的排列我也對照片排版有了初步的了解</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 58</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/programming.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 6</h4>
+                        <p class="card-text">這個禮拜將之前學過的東西整理成條列式更方便去找自己的作品</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 69</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card col-lg-md-6" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/IMGS.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 7</h4>
+                        <p class="card-text">這週學會了row的用法 <br> 真的很實用</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 75</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/Pattern.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 8</h4>
+                        <p class="card-text">學會了card跟basckgord的使用<br>很實用
+                        </p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 84</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card col-lg-md-6" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/模擬考.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 9</h4>
+                        <p class="card-text">這禮拜考了第一次模擬考真的超級無敵難的，
+                            那時的我很擔心期末考是不是也會爆</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 96</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/bootstrap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">bootstrap-sandbox-starter</h4>
+                        <p class="card-text">這個有很多小工具讓我們使用<br>真的超方便呢!</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 107</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card col-lg-md-6" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/w13.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 13</h4>
+                        <p class="card-text">這裡拜學了很多button還有下拉式選項<br>雖然很難但是做出來超有成就感的</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 137</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./imgs/w14.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Week 14</h4>
+                        <p class="card-text">這週學網頁大小如何設定影片一行的數量</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">Open</a>
+                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fa fa-heart" aria-hidden="true"> 247</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript --><div class="modal" id="addpostModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title ">Add Category</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="name">Title</label>
+                        <input class="form-control" type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Category</label>
+                        <select class="form-control" id="gender">
+                    <option>Web Development</option>
+                    <option>Tech Gadgets</option>
+                    <option>Web Development</option>
+                    <option>Female</option>
+                </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Upload Image</label>
+                        <div class="custom-file">
+                            <input type="file" id="myfile" class="custum-file-input">
+                            <label class="custom-file-label" for="myfile">Choose file</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" name="editor1" id="message" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Save change</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="modal" id="addcatModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark  text-white">
+                    <h5 class="modal-title ">Add Category</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="name">Title</label>
+                        <input class="form-control" type="text" id="name">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Save change</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="modal" id="adduserModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark  text-white">
+                    <h5 class="modal-title ">Add user</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="name">Username</label>
+                        <input class="form-control" type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" type="password" id="password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Save change</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+        CKEDITOR.replace('editor1');
+    </script>
+</body>
+
+</html>
