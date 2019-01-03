@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <title>我的課表</title>
     <meta charset="utf-8">
     <style>
@@ -58,163 +60,313 @@
     </style>
 </head>
 
+
 <body>
-    <table>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="../期末/index.html">Home</a>
+                    <button class="navbar-toggler" data-toggle="collapse"data-target="#navbarNav">
+                        <span class="navbar-toggler-icon">
+                        </span>
+                    </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                       <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#" data-toggle="modal" data-target="#addpostModal"> <i class="fas fa-plus"></i> Add Posts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#" data-toggle="modal" data-target="#addcatModal"><i class="fas fa-plus"></i> Add Catagories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#" data-toggle="modal" data-target="#adduserModal"> <i class="fas fa-plus"></i> Add Users</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">當週課堂實作</a>
+                                <div class="dropdown-menu">
+                                    
+                                    <a href="#" class="dropdown-item">myclass</a>
+                                    <a href="./table.html" class="dropdown-item">table</a>
+                                </div>   
+                                </li>
+                    </ul>
+                          <ul class="navbar-nav ml-auto">
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><i class="fas fa-user">Welcome</i></a>
+                              <div class="dropdown-menu">
+                                  
+                                  <a href="#" class="dropdown-item"><i class="fas fa-user-circle">Profile</i></a>
+                                  <a href="#" class="dropdown-item"><i class="fas fa-cog">Settings</i></a>
+                              </div>   
+                              </li>
+                              
+                              
+                             <li class="nav-item">
+                            <a class="nav-link mx-2" href="#"><i class="fas fa-user-times">Logout</i></a>
+                        </li>
+                        
+                          </ul>
+                          
+                     </div>
+                </div>
+            </nav>
+            <hr>
+           
+        <body>
+            <table>
+                <tr>
+                    <td rowspan="2" colspan="2" class="name">周廷蔓</td>
+                    <td colspan="6" class="tablename">課表</td>
+                </tr>
+        
+                <tr>
+                    <td class="weekday">週一</td>
+                    <td class="weekday">週二</td>
+                    <td class="weekday">週三</td>
+                    <td class="weekday">週四</td>
+                    <td class="weekday">週五</td>
+                    <td class="weekday">週六</td>
+                </tr>
+        
+                <tr>
+                    <td class="number">1</td>
+                    <td class="time">8:10-9:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">開源軟體實習</td>
+                </tr>
+         <tr>
+                    <td class="number">2</td>
+                    <td class="time">9:10-10:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">開源軟體</td>
+                </tr>
+         <tr>
+                    <td class="number">3</td>
+                    <td class="time">10:10-11:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">開源軟體</td>
+                </tr>
+         <tr>
+                    <td class="number">4</td>
+                    <td class="time">11:10-12:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">開源軟體</td>
+                </tr>
+         <tr>
+                    <td class="number">5</td>
+                    <td class="time">12:10-13:00</td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                </tr>
+         <tr>
+                    <td class="number">6</td>
+                    <td class="time">13:10-14:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">英文</td>
+                </tr>
+         <tr>
+                    <td class="number">7</td>
+                    <td class="time">14:10-15:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">英文</td>
+                </tr>
+         <tr>
+                    <td class="number">8</td>
+                    <td class="time">15:10-16:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">英文實習</td>
+                </tr>
+         <tr>
+                    <td class="number">9</td>
+                    <td class="time">16:10-17:00</td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content"></td>
+                    <td class="content">英文實習</td>
+                </tr>
+         <tr>
+                    <td class="number">10</td>
+                    <td class="time">17:10-18:00</td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                    <td class="contact "></td>
+                </tr>
+         <tr>
+                    <td class="number">11</td>
+                    <td class="time">18:10-19:00</td>
+                    <td class="content">計算機概論</td>
+                    <td class="content">大學學習</td>
+                    <td class="content">計算機程式語言</td>
+                    <td class="content">選修</td>
+                    <td class="content">體育</td>
+                    <td class="content">國文</td>
+                </tr>
+         <tr>
+                    <td class="number">12</td>
+                    <td class="time">19:10-20:00</td>
+                    <td class="content">計算機概論</td>
+                    <td class="content">靜態網頁設計</td>
+                    <td class="content">計算機程式語言</td>
+                    <td class="content">選修</td>
+                    <td class="content">體育</td>
+                    <td class="content">國文</td>
+                </tr>
+         <tr>
+                    <td class="number">13</td>
+                    <td class="time">20:10-21:00</td>
+                    <td class="content">計算機概論</td>
+                    <td class="content">靜態網頁設計</td>
+                    <td class="content">計算機程式語言</td>
+                    <td class="content"></td>
+                    <td class="content">服務學習</td>
+                    <td class="content">護理</td>
+                </tr>
         <tr>
-            <td rowspan="2" colspan="2" class="name">周廷蔓</td>
-            <td colspan="6" class="tablename">課表</td>
-        </tr>
-
-        <tr>
-            <td class="weekday">週一</td>
-            <td class="weekday">週二</td>
-            <td class="weekday">週三</td>
-            <td class="weekday">週四</td>
-            <td class="weekday">週五</td>
-            <td class="weekday">週六</td>
-        </tr>
-
-        <tr>
-            <td class="number">1</td>
-            <td class="time">8:10-9:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">開源軟體實習</td>
-        </tr>
- <tr>
-            <td class="number">2</td>
-            <td class="time">9:10-10:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">開源軟體</td>
-        </tr>
- <tr>
-            <td class="number">3</td>
-            <td class="time">10:10-11:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">開源軟體</td>
-        </tr>
- <tr>
-            <td class="number">4</td>
-            <td class="time">11:10-12:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">開源軟體</td>
-        </tr>
- <tr>
-            <td class="number">5</td>
-            <td class="time">12:10-13:00</td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-        </tr>
- <tr>
-            <td class="number">6</td>
-            <td class="time">13:10-14:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">英文</td>
-        </tr>
- <tr>
-            <td class="number">7</td>
-            <td class="time">14:10-15:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">英文</td>
-        </tr>
- <tr>
-            <td class="number">8</td>
-            <td class="time">15:10-16:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">英文實習</td>
-        </tr>
- <tr>
-            <td class="number">9</td>
-            <td class="time">16:10-17:00</td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content"></td>
-            <td class="content">英文實習</td>
-        </tr>
- <tr>
-            <td class="number">10</td>
-            <td class="time">17:10-18:00</td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-            <td class="contact "></td>
-        </tr>
- <tr>
-            <td class="number">11</td>
-            <td class="time">18:10-19:00</td>
-            <td class="content">計算機概論</td>
-            <td class="content">大學學習</td>
-            <td class="content">計算機程式語言</td>
-            <td class="content">選修</td>
-            <td class="content">體育</td>
-            <td class="content">國文</td>
-        </tr>
- <tr>
-            <td class="number">12</td>
-            <td class="time">19:10-20:00</td>
-            <td class="content">計算機概論</td>
-            <td class="content">靜態網頁設計</td>
-            <td class="content">計算機程式語言</td>
-            <td class="content">選修</td>
-            <td class="content">體育</td>
-            <td class="content">國文</td>
-        </tr>
- <tr>
-            <td class="number">13</td>
-            <td class="time">20:10-21:00</td>
-            <td class="content">計算機概論</td>
-            <td class="content">靜態網頁設計</td>
-            <td class="content">計算機程式語言</td>
-            <td class="content"></td>
-            <td class="content">服務學習</td>
-            <td class="content">護理</td>
-        </tr>
-<tr>
-            <td class="number">14</td>
-            <td class="time">21:10-22:00</td>
-            <td class="content">計算機概論實習</td>
-            <td class="content">靜態網頁設計</td>
-            <td class="content">計算機程式語言實習</td>
-            <td class="content"></td>
-            <td class="content">靜態網頁設計實習</td>
-            <td class="content">護理</td>
-        </tr>
- 
-
-    </table>
-</body>
+                    <td class="number">14</td>
+                    <td class="time">21:10-22:00</td>
+                    <td class="content">計算機概論實習</td>
+                    <td class="content">靜態網頁設計</td>
+                    <td class="content">計算機程式語言實習</td>
+                    <td class="content"></td>
+                    <td class="content">靜態網頁設計實習</td>
+                    <td class="content">護理</td>
+                </tr>
+    <!-- Optional JavaScript --><div class="modal" id="addpostModal">
+            <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark text-white">
+                            <h5 class="modal-title ">Add Category</h5>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="name">Title</label>
+                                <input class="form-control" type="text" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Category</label>
+                                <select class="form-control" id="gender">
+                            <option>Web Development</option>
+                            <option>Tech Gadgets</option>
+                            <option>Web Development</option>
+                            <option>Female</option>
+                        </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Upload Image</label>
+                                <div class="custom-file">
+                                    <input type="file" id="myfile" class="custum-file-input">
+                                    <label class="custom-file-label" for="myfile">Choose file</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" name="editor1" id="message" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-dark" data-dismiss="modal">Save change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+            <div class="modal" id="addcatModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark  text-white">
+                            <h5 class="modal-title ">Add Category</h5>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="name">Title</label>
+                                <input class="form-control" type="text" id="name">
+                            </div>
+        
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-dark" data-dismiss="modal">Save change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+            <div class="modal" id="adduserModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark  text-white">
+                            <h5 class="modal-title ">Add user</h5>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="name">Username</label>
+                                <input class="form-control" type="text" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input class="form-control" type="password" id="password">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-dark" data-dismiss="modal">Save change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+            <script>
+                // Get the current year for the copyright
+                $('#year').text(new Date().getFullYear());
+                CKEDITOR.replace('editor1');
+            </script>
+        </body>
+        
+        </html>
